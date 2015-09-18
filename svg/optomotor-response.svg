@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="237.833px" height="211.667px" viewBox="0 0 237.833 211.667" enable-background="new 0 0 237.833 211.667"
+	 xml:space="preserve">
+<g>
+	<g>
+		<rect x="115.293" y="44.172" fill="#797B7D" width="10.627" height="71.88"/>
+		<rect x="94.806" y="44.172" fill="#797B7D" width="10.627" height="71.88"/>
+		<rect x="73.47" y="44.172" fill="#797B7D" width="10.626" height="71.88"/>
+		<rect x="52.983" y="44.172" fill="#797B7D" width="10.627" height="71.88"/>
+	</g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="#FFFFFF" stroke-width="1.6009" stroke-miterlimit="10" x1="88.013" y1="108.438" x2="113.297" y2="108.438"/>
+			<g>
+				<polygon fill="#FFFFFF" points="108.8,114.367 111.319,108.438 108.8,102.509 122.854,108.438 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<path fill="#808083" stroke="#FFFFFF" stroke-width="1.1796" stroke-miterlimit="10" d="M59.205,74.209
+			c0.158-0.263,0.354-0.468,0.595-0.581c0.364,1.545-0.188,3.092,0.497,4.579c2.316,5.015,13.272,5.056,17.551,3.448
+			c3.21-1.205,5.592-3.306,9.047-4.022c2.89-0.601,9.617,0.899,11.093-1.664l-0.368-0.41l-1.288-1.448c0,0-0.971,0.249-0.985,0.255
+			c2.822-0.731,3.761,3.764,6.608,2.886c0.582-0.18,0.68-1.081,1.282-1.221c1.821-0.418,3.551,1.551,5.583,0.861
+			c1.729-0.685,1.007-3.078,3.648-2.651c1.528,0.241,3.463,1.838,4.529,2.876c2.623,2.543,3.804,6.551-0.858,7.577
+			c-0.41,2.411-4.984,1.006-6.324,0.193c0,0-0.501-0.389-1.509-0.56c-1.009-0.17-1.009-0.17-1.009-0.17s-1.809,1.261-2.932,1.242
+			c-1.869-0.038-2.155-1.892-4.125-1.242c-1.878,0.63-3.106,2.17-4.273,3.666c0.227-1.612,0.923-3.102,1.749-4.495
+			c-2.417-1.518-7.288-2.259-9.896-1.88c-4.281,0.624-7.604,3.997-12.045,4.284c-5.383,0.349-16.734-0.5-17.164-8.045
+			C58.561,76.782,58.647,75.135,59.205,74.209z"/>
+		
+			<ellipse transform="matrix(0.9306 0.366 -0.366 0.9306 35.9464 -36.9818)" fill="#231F20" stroke="#FFFFFF" stroke-width="1.3737" stroke-miterlimit="10" cx="115.519" cy="76.323" rx="4.092" ry="2.373"/>
+		
+			<ellipse transform="matrix(0.9794 -0.2019 0.2019 0.9794 -14.7753 24.9763)" fill="#231F20" stroke="#FFFFFF" stroke-width="1.3737" stroke-miterlimit="10" cx="115.07" cy="84.931" rx="4.093" ry="2.373"/>
+	</g>
+</g>
+<path opacity="0.8" fill="#C8CACB" stroke="#231F20" stroke-width="0.5567" enable-background="new    " d="M65.153,12.168
+	c5.729,19.578,12.357,39.365,17.445,58.91c0.865,3.319,2.641,8.261,0.433,7.588C75.87,56.92,68.72,35.172,61.565,13.426"/>
+<rect x="77.847" y="69.25" fill="none" stroke="#D80006" stroke-width="0.6707" stroke-miterlimit="10" width="43.792" height="22.762"/>
+<text transform="matrix(1 0 0 1 74.5806 18.4995)" fill="#CCCCCC" font-family="'HelveticaNeue-Bold'" font-size="11">Behavioral</text>
+<text transform="matrix(1 0 0 1 74.5806 31.6997)" fill="#CCCCCC" font-family="'HelveticaNeue-Bold'" font-size="11">recording</text>
+<text transform="matrix(1 0 0 1 128.8306 66.0737)" fill="#ED1C24" font-family="'HelveticaNeue-Bold'" font-size="11">Light</text>
+<text transform="matrix(1 0 0 1 128.8306 79.2739)" fill="#ED1C24" font-family="'HelveticaNeue-Bold'" font-size="11">sheet</text>
+<text transform="matrix(1 0 0 1 128.8306 92.4741)" fill="#ED1C24" font-family="'HelveticaNeue-Bold'" font-size="11">imaging</text>
+<text transform="matrix(1 0 0 1 16.6133 102.3237)" fill="#797B7D" font-family="'HelveticaNeue-Bold'" font-size="11">Visual</text>
+<text transform="matrix(1 0 0 1 3.5903 115.5239)" fill="#797B7D" font-family="'HelveticaNeue-Bold'" font-size="11">stimulus</text>
+</svg>

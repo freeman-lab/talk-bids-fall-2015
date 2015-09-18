@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>bids fall 2015</title>
+    <meta name="description" content="BIDS 2015" />
+    <meta name="author" content="Jeremy Freeman" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/tomorrow-night.min.css">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="fonts/06.Geomanist_Medium_webfontkit/stylesheet.css" rel="stylesheet" />
+    <link href="fonts/04.Geomanist_Regular_webfontkit/stylesheet.css" rel="stylesheet" />
+    <link href="fonts/03.Geomanist_Light_webfontkit/stylesheet.css" rel="stylesheet" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/highlight.min.js"></script>
+    <script src="js/scala.min.js"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+	<div id="canvas">
+
+        <div id="computation" class="step title slide left center noborder" data-x="-1000" data-y="0" data-z="0">
+            <h2>open<br>neuroscience</h2>
+            <p class='authors' style='font-size: 36px; margin-bottom: -30px'>@thefreemanlab&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;thefreemanlab.com</p>
+        </div>
+
+        <div id="collaborators" class="step title hide" data-x="0" data-y="0" data-z="0">
+            <iframe src='http://jeremyfreeman.net/share/talks/collaborators/' style='pointer-events: all;' width='1200px' height='1000px'></iframe>
+        </div>
+
+        <div id="optomotor-response" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <h6>Zebrafish</h6>
+            <img style='margin-top: -40px; margin-left: 100px; width: 800px' src='svg/optomotor-response.svg'></img>
+            <p class='authors'>Misha Ahrens + Philipp Keller + Lab</p>
+        </div>
+
+        <div id="fish-movie" class="step title hide" data-x="0" data-y="0" data-z="-1000">
+            <div id="movie-container">
+                <video id="omr-mov" width='1200px' style='margin-left:0px; margin-top: 80px' controls autoplay loop src="mov/omr-movie-horizontal.mp4"></video>
+            </div>
+            <p class='authors-alt'>Misha Ahrens + Philipp Keller + Lab</p>
+        </div>
+
+        <div id="ica" class="step title hide" data-x="0" data-y="0" data-z="-1000">
+            <div id="movie-container">
+                <video id="full-screen-video-ica" controls autoplay loop src="mov/ica.mov" width="1200px" style='float:left;width:600px;margin-top:15px'></video>
+                <img id="ica-traces-svg" src="svg/ica-traces.svg" scrolling="no" style='width:450px;float:right;margin-right:60px;margin-top:80px'></img>
+            </div>
+        </div>
+
+        <div id="mouse-intro" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <h6>Mouse</h6>
+           <img style='margin-top: 20px; margin-left: 0px; width: 700px' src='svg/mouse.svg'></img>
+            <p class='authors'>Karel Svoboda + Lab</p>
+        </div>
+
+        <div id="encoding-examples" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <h6>Simple behaviors</h6>
+            <img style='margin-top: -30px; margin-left: -40px; width: 1100px' src='svg/nonlinear-encoding-examples.svg'></img>
+            <p class='authors'>Simon Peron + Karel Svoboda</p>
+        </div>
+
+        <div id="map" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <img style='margin-left: -100px; margin-top: -50px; width: 1000px' src='svg/map.svg'></img>
+            <p class='authors'>Peron et al., 2015</p>
+        </div>
+
+        <div id="vincent" class="step title center noborder hide" data-x="0" data-y="0" data-z="-1000">
+            <img style='margin-left: -100px; margin-top: -50px; width: 1200px' src='svg/maze.svg'></img>
+            <p class='authors' style='color: black; opacity: 1.0'>Stella Vincent, dissertation, 1912</p>
+        </div>
+
+        <div id="rig" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <h6>Tactile virtual reality</h6>
+            <div style='margin-top:50px' id="movie-container">
+            <div id="full-screen-video-left">
+                <video id="mouse-movie" autoplay controls loop src="mov/Movie_1.mp4" width="540px"></video>
+            </div>
+            <div id="full-screen-video-right">
+                <video id="mouse-movie" autoplay controls loop src="mov/Movie_2.mp4" width="440px"></video>
+            </div>
+        </div>
+            <p class='authors'>Sofroniew et al., 2014</p>
+        </div>
+
+        <div id="future-0" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <img style='margin-left: -20px; margin-top: 100px; width: 1000px' src='svg/choice.svg'></img>
+            <p class='authors'>Nicholas Sofroniew + Karel Svoboda</p>
+        </div>
+
+        <div id="imaging" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <div id="movie-container">
+                <div id="full-screen-video-left">
+                    <video id="mouse-movie-fast" autoplay controls loop src="mov/responses-trimmed.mp4" width="480px" style="margin-top: 30px"></video>
+                </div>
+                <div id="full-screen-video-right">
+                    <video id="mouse-movie-slow" autoplay controls loop src="mov/responses-streaming.mp4" width="480px" style="margin-left: -40px; margin-top: 30px"></video>
+                </div>
+            </div>
+            <p class='authors'>Andrew Oshoeroff + Nicholas Sofroniew + Karel Svoboda</p>
+        </div>
+
+        <div id="ablation" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <div id="lasers-container">
+                <video id="lasers" autoplay loop src="mov/lasers.mp4" width="700px" style='margin-left: -20px;margin-top: 50px'></video>
+            </div>
+            <p class='authors'>Simon Peron + Freyja Ólafsdóttir + Karel Svoboda</p>
+        </div>
+
+        <div id="model-raster" class="step title hide center" data-x="0" data-y="0" data-z="-1000">
+            <img style='margin-left: -20px; margin-top: 0px; width: 900px' src='svg/ablation-model.svg'></img>
+            <p class='authors'>Jason Wittenbach + Simon Peron + Karel Svoboda</p>
+        </div>
+
+
+        <div id="tools" class="step title slide hide" data-x="0" data-y="0" data-z="0">
+            <h3>we have amazing <span style="color:rgb(120,180,220)">tools</span> for measuring and manipulating</h3>  
+        </div>
+
+        <div id="tools-we-need" class="step title slide hide" data-x="0" data-y="0" data-z="0">
+            <h3>we need <span style="color:rgb(180,140,190)">tools</span><br>for analyzing, visualizing,<br>and sharing</h3>  
+        </div>
+
+        <div id="thunder-1" class="step title slide hide" data-x="1000" data-y="0" data-z="0">
+            <img style='margin-left: 0px; margin-top: -30px; width: 500px; display: block' src='svg/thunder-logo.svg'></img>
+            <div style="width: 800px; margin-top: 40px;">
+                <h6 class='item'>analytics for spatial and temporal data, ranging from GBs to TBs, parallized using Spark (for now), with primitives for distributed n-dimensional arrays</h6>
+                <h6 class='item-minor'>see also: dask.array, xray</h6>
+                <h6 class='collab' style='margin-top:10px'>w/ jason wittenbach (@jwittenbach)<br>andrew osheroff (@andrewosh)<br>michael broxton (@broxtronix) + others</h6>
+            </div>
+        </div>
+
+        <div id="thunder-2" class="step title slide hide middle" data-x="1000" data-y="0" data-z="0">
+            <div style="width: 800px; margin-top: -20px;">
+            <h5 class='item-header' style='margin-top:0px'>challenges</h5>
+            <h6 class='item-bullet'>benchmarking and comparing all the different distributed array tools</h6>
+            <h6 class='item-bullet'>developing unified interfaces to distributed array-like things</h6>
+            <h5 class='item-header' style='margin-top:50px'>links</h5>
+            <h6 class='item-link' style='margin-top:0px'><a href='http://thunder-project.org'>thunder-project.org</a> / <a href='http://github.com/thunder-project'>github.com/thunder-project</a></h6>
+            <h6 class='item-link'><a href='http://bolt-project.org'>bolt-project.org</a> / <a href='http://github.com/bolt-project'>github.com/bolt-project</a></h6>
+            <h6 class='item-link'></h6>
+            </div>
+        </div>
+
+        <div id="lightning-1" class="step title slide hide" data-x="2000" data-y="0" data-z="0">
+            <img style='margin-left: -20px; margin-top: -50px; width: 400px; display: block' src='svg/lightning-logo.svg'></img>
+            <img style='margin-left: -200px; margin-top: -140px; width: 150px; position: absolute' src='svg/adjacency.png'></img>
+            <img style='margin-left: -200px; margin-top: 20px; width: 150px; position: absolute' src='svg/brushing.gif'></img>
+            <img style='margin-left: -200px; margin-top: 180px; width: 150px; position: absolute' src='svg/circle.png'></img>
+            <img style='margin-left: -200px; margin-top: 340px; width: 150px; position: absolute' src='svg/line-streaming.gif'></img>
+            <div style="width: 800px; margin-top: 20px;">
+                <h6 class='item'>API-based access to web-based visualizations via node.js, exposing an ecosystem of custom visualizations to many languages</h6>
+                <h6 class='item-minor'>see also: bokeh, plotly, pyxley</h6>
+                <h6 class='collab'>w/ matt conlen (@mathisonian)</h6>
+            </div>
+        </div>
+
+        <div id="lightning-2" class="step title hide" data-x="2000" data-y="0" data-z="0">
+            <div id="movie-container">
+                <video id="lightning-demo" width='1200px' style='margin-left:0px; margin-top: 20px;' controls autoplay loop src="mov/lightning-demo.mov"></video>
+            </div>
+        </div>
+
+        <div id="lightning-3" class="step title slide hide middle" style='pointer-events: all' data-x="2000" data-y="0" data-z="0">
+            <div style="width: 800px; margin-top: -20px;">
+            <h5 class='item-header' style='margin-top:0px'>challenges</h5>
+            <h6 class='item-bullet'>can we design the same visualizations for multiple languages?</h6>
+            <h6 class='item-bullet'>where and how can we adopt common specifications (vega?)</h6>
+            <h5 class='item-header' style='margin-top:50px'>links</h5>
+            <h6 class='item-link' style='margin-top:0px'><a href='http://lightning-viz.org'>lightning-viz.org</a> / <a href='http://github.com/lightning-viz'>github.com/lightning-viz</a></h6>
+            <h6 class='item-link'><a href='http://try.lightning-viz.org'>try.lightning-viz.org</a></h6>
+            </div>
+        </div>
+
+        <div id="binder-1" class="step title slide hide" data-x="3000" data-y="0" data-z="0">
+            <img style='margin-left: -20px; margin-top: -50px; width: 400px; display: block' src='svg/binder-logo.svg'></img>
+            <img style='margin-left: -200px; margin-top: -140px; width: 200px; position: absolute' src='svg/binder-icons.svg'></img>
+            <div style="width: 800px; margin-top: 20px;">
+                <h6 class='item'>turn a GitHub repo into a executable notebook environment that anyone can deploy on demand</h6>
+                <h6 class='collab'>w/ andrew osheroff (@andrewosh) + kyle kelley (@rgbkrk)</h6>
+            </div>
+        </div>
+
+        <div id="binder-2" class="step title hide" data-x="3000" data-y="0" data-z="0">
+            <div id="movie-container">
+                <video id="binder-demo" width='1200px' style='margin-left:0px; margin-top: 20px' controls autoplay loop src="mov/binder-demo.mov"></video>
+            </div>
+        </div>
+
+        <div id="binder-3" class="step title slide hide" data-x="3000" data-y="0" data-z="0">
+            <div style="width: 800px; margin-top: -20px;">
+            <h5 class='item-header' style='margin-top:20px'>challenges</h5>
+            <h6 class='item-bullet'>how do we deal with data (dat?)</h6>
+            <h6 class='item-bullet'>how do we make containers lighter-weight and faster and easier to build (also dat??)</h6>
+            <h5 class='item-header' style='margin-top:50px'>links</h5>
+            <h6 class='item-link' style='margin-top:0px'><a href='http://mybinder.org'>mybinder.org</a></h6>
+            <h6 class='item-link'><a href='http://github.com/binder-project'>github.com/binder-project</a></h6>
+            <h6 class='item-link'><a href='http://github.com/sofroniewn/tactile-coding'>github.com/sofroniewn/tactile-coding</a></h6>
+            </div>
+        </div>
+
+        <div id="code-neuro" class="step title hide middle" data-x="4000" data-y="0" data-z="0">
+            <img style='margin-left: -20px; margin-top: 100px; width: 1000px' src='svg/logo-pink-blue.svg'></img>
+            <br>
+            <br>
+            <h6 class='item-link' style='text-align: center;margin-top:0px'><a href='http://codeneuro.org/SF/2015' style='font-size: 40px;'>codeneuro.org/SF/2015</a></h6>
+        </div>
+
+        
+
+    
+  </div>
+
+ </div>
+
+
+<script src="js/impress.js"></script>
+
+<script>impress().init();</script>
+
+<script>
+$('iframe').click(function(){
+ window.focus();
+});
+</script>
+
+<script>
+var videoStep = document.getElementById("imaging");
+var video1 = document.getElementById("mouse-movie-slow")
+var video2 = document.getElementById("mouse-movie-fast")
+videoStep.addEventListener("impress:stepenter", function() {
+    video1.currentTime = 0;
+    video2.currentTime = 0;
+    video1.play();
+    video2.play();
+}, false);
+</script>
+
+<script>
+var vid_ablation = document.getElementById("lasers");
+vid_ablation.playbackRate = 2.0;
+</script>
+
+<script>
+var vid_ablation_1 = document.getElementById("ablation");
+var vid_ablation_11 = document.getElementById("lasers")
+vid_ablation_1.addEventListener("impress:stepenter", function() {
+    vid_ablation_11.currentTime = 0;
+    vid_ablation_11.play();
+}, false);
+</script>
+
+<script>
+var vid_lightning_1 = document.getElementById("lightning-2");
+var vid_lightning_11 = document.getElementById("lightning-demo")
+vid_lightning_1.addEventListener("impress:stepenter", function() {
+    vid_lightning_11.currentTime = 0;
+    vid_lightning_11.play();
+}, false);
+</script>
+
+<script>
+var vid_binder_1 = document.getElementById("binder-2");
+var vid_binder_11 = document.getElementById("binder-demo")
+vid_binder_1.addEventListener("impress:stepenter", function() {
+    vid_binder_11.currentTime = 0;
+    vid_binder_11.play();
+}, false);
+</script>
+
+<script>
+var vid = document.getElementById("mouse-movie-fast");
+vid.playbackRate = 0.5;
+</script>
+
+<script>
+var vid = document.getElementById("omr-mov");
+vid.playbackRate = 2.0;
+</script>
+
+</body>
+</html>

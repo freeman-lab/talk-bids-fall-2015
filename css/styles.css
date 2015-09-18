@@ -1,0 +1,517 @@
+/*
+   Chunks of this are based on the CSS included with the impress.js demo
+*/
+
+@font-face {
+    font-family: ClearSans-Light;
+    src: url(../fonts/clearsans-1.00/WOFF/ClearSans-Light.woff);
+}
+
+html, body, div, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    pointer-events: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    min-height: 740px;
+    font-weight: 100;
+    background-color: rgb(50, 50, 50);
+}
+
+
+b, strong { font-weight: bold }
+i, em { font-style: italic }
+
+pre {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+pre code {
+    background: none;
+    padding: none;
+}
+
+h1 {
+    font-family: 'geomanistmedium';
+    font-size: 120px;
+    line-height: 90px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 150px;
+    line-height: 170px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 100px;
+    line-height: 107px;
+    font-weight: 200;
+}
+
+h4 {
+    font-family: 'geomanistregular';
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 200;
+    margin-top: 200px;
+}
+
+h5 {
+    font-family: 'geomanistlight';
+    font-size: 50px;
+    line-height: 40px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+h6 {
+    font-family: 'ClearSans-Light';
+    font-size: 50px;
+    line-height: 120px;
+    text-align: left;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 0.1em;
+    line-height: 0px;
+    margin-bottom: 0px;
+    border-bottom: 2px dotted rgb(230,230,230);
+}
+
+a:hover,
+a:focus {
+    background: rgba(255,255,255,1);
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
+}
+
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+.step {
+    width: 1200px;
+    height: 800px;
+    position: 20px;
+    opacity: 0.2;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-size: 48px;
+    line-height: 1.5;
+
+    pointer-events: none;
+}
+
+.impress-enabled .title.step {
+    opacity: 0;
+
+    -webkit-transition: 0.75s;
+    -moz-transition:    0.75s;
+    -ms-transition:     0.75s;
+    -o-transition:      0.75s;
+    transition:         0.75s;
+
+}
+
+.impress-enabled .title.hide  {
+
+    opacity: 0;
+
+    -webkit-transition: 0.75s;
+    -moz-transition:    0.75s;
+    -ms-transition:     0.75s;
+    -o-transition:      0.75s;
+    transition:         0.75s;
+}
+
+
+.impress-enabled .hide  {
+    opacity: 0;
+
+    -webkit-transition: 0.75s;
+    -moz-transition:    0.75s;
+    -ms-transition:     0.75s;
+    -o-transition:      0.75s;
+    transition:         0.75s;
+}
+
+.impress-enabled .webpage  {
+    margin: 0;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.5s;
+    -moz-transition:    opacity 0.5s;
+    -ms-transition:     opacity 0.5s;
+    -o-transition:      opacity 0.5s;
+    transition:         opacity 0.5s;
+}
+
+.impress-enabled .step.active { 
+
+    opacity: 1;
+    margin-top: 0px;
+
+}
+
+.impress-enabled .webpage.active { opacity: 1 }
+
+.slide {
+    display: block;
+    text-align: right !important;
+
+    width: 1200px;
+    height: 700px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    opacity: 0.5;
+    border: none;
+    border-radius: 10px;
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+}
+
+.slide q {
+    display: block;
+    font-size: 50px;
+    line-height: 72px;
+
+    margin-top: 100px;
+}
+
+.slide q strong {
+    white-space: nowrap;
+}
+
+.title {
+
+    text-align: left;
+    font-family: 'geomanistmedium';
+    color: rgb(200, 200, 200);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: -1px;
+}
+
+.left {
+    text-align: left !important;
+}
+
+.right {
+    text-align: right !important;
+}
+
+.middle {
+    text-align: center !important;
+}
+
+.center {
+    text-align: center;
+    width: 1100px;
+    height: 650px;
+    padding-top: 0px;
+    padding-left: 30px;
+    border: 3px dotted rgb(100,100,100);
+    border-radius: 10px;
+}
+
+.noborder {
+    border: none !important;
+}
+
+.item {
+    font-size: 44px;
+    line-height: 1.2em;
+    margin-bottom: 40px;
+    color: rgb(100,100,100);
+}
+
+.item-minor {
+    font-size: 36px;
+    line-height: 1.2em;
+    margin-bottom: 40px;
+    font-style: italic;
+    color: rgb(180,180,180);
+}
+
+.item-bullet{
+    font-size: 44px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    color: rgb(230,230,230);
+}
+
+.item-link{
+    cursor: pointer;
+    pointer-events: all;
+    font-size: 36px;
+    line-height: 0.8em;
+    margin-bottom: 30px;
+    color: rgb(230,230,230);
+}
+
+.item-header {
+    font-family: ClearSans-Medium;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color: rgb(230,230,230);
+}
+
+.collab {
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height: 1.2em;
+    color: rgb(100,100,100);
+}
+
+.authors {
+    text-align: right;
+    font-size: 28px;
+    font-family: 'ClearSans-Light';
+    position: absolute;
+    font-size: 24px;
+    bottom: 0px;
+    margin-bottom: -80px;
+    right: 10px;
+    opacity: 0.4;
+}
+
+.authors-alt {
+    text-align: right;
+    font-size: 28px;
+    font-family: 'geomanistlight';
+    position: absolute;
+    font-size: 24px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    right: 20px;
+    opacity: 0.4;
+}
+
+.impress-on-vincent {
+    background: none;
+    background-color: white;
+}
+
+.impress-on-binder-1, .impress-on-binder-2 {
+    background: none;
+    background-color: white;
+}
+
+.impress-on-lightning-1, .impress-on-lightning-2 {
+    background: none;
+    background-color: white;
+}
+
+.impress-on-lightning-3 {
+    background: none;
+    background-color: rgb(145,117,240);
+}
+
+.impress-on-binder-3 {
+    background: none;
+    background-color: rgb(229,101,129);
+}
+
+.impress-on-thunder-1 {
+    background: none;
+    background-color: white;
+}
+
+.impress-on-thunder-2 {
+    background: none;
+    background-color: rgb(235,139,52);
+}
+
+.impress-on-fish-movie,.impress-on-ica {
+    background: none;
+    background-color: black;
+}
+
+.browser {
+
+    width: 110%; 
+    height: 100%;
+    margin-left: -5%;
+    border: none; 
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+.fly-in {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    -moz-transform:    translateY(-100px);
+    -ms-transform:     translateY(-100px);
+    -o-transform:      translateY(-100px);
+    transform:         translateY(-100px);
+    -webkit-transition: 0.4s;
+    -moz-transition:    0.4s;
+    -ms-transition:     0.4s;
+    -o-transition:      0.4s;
+    transition:         0.4s;
+}
+
+.fly-out {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+.present .fly-in {
+    opacity :1;
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+}
+
+.present .fly-out {
+    opacity :0;
+    -webkit-transform: translateY(-600px);
+    -moz-transform:    translateY(-600px);
+    -ms-transform:     translateY(-600px);
+    -o-transform:      translateY(-600px);
+    transform:         translateY(-600px);
+}
+
+.item-one-faded, .item-two-faded {
+    opacity: 0.5;
+}
+
+.item-one, .item-two, .item-three,.item-one-alt, .item-two-alt, .item-three-alt {
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+    transform: scale(1.0);
+    color: white;
+}
+
+@-webkit-keyframes pop {
+    0% {transform: scale(1);}
+    40% {transform: scale(1.4);}
+    100% {transform: scale(1.2);}
+}
+
+.present .item-one, .present .item-two, .present .item-three {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: once;
+    -webkit-animation-name: pop;
+    -webkit-animation-timing-function: ease;
+    transform: scale(1.2);
+    color:rgb(180,140,190);
+}
+
+.present .item-one-alt, .present .item-two-alt, .present .item-three-alt {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-iteration-count: once;
+    -webkit-animation-name: pop;
+    -webkit-animation-timing-function: ease;
+    transform: scale(1.2);
+    color:rgb(120,180,220);
+}
+
+#full-screen-video-left {
+    float: left;
+    width: 500px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#full-screen-video-right {
+    width: 500px;
+    margin-left: 560px;
+    margin-top: 0px;
+}
